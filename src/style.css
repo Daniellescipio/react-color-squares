@@ -1,0 +1,68 @@
+body{
+    align-items: center;
+    align-content: center;
+    text-align:center;
+    margin: auto;
+}
+.gridContainer{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    height:400px;
+    width:900px;
+    margin: auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+.color{
+    border: solid 1px;
+    height: 100%;
+    width: 100%;
+}
+.button{
+    margin:20px
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.indigo{
+    background-color: indigo;
+}
+.violet{
+    background-color: violet;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.purple{
+    background-color: purple;
+}
+.maroon{
+    background-color: maroon;
+}
+.pink{
+    background-color: pink;
+}
+.gray{
+    background-color: gray;
+}
+.magenta{
+    background-color: magenta;
+}
+.teal{
+    background-color: teal;
+}
